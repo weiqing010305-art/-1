@@ -1,24 +1,7 @@
-# 环境变量和敏感信息
 .env
-.env.*
-!.env.example
-secrets.json
-credentials.json
-*.key
-*.pem
-
-# Python 缓存和虚拟环境
+chroma_db/
+data/
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 venv/
-.pytest_cache/
-
-# 编辑器和系统文件
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# 配置过程中产生的临时文件
-OPENAI_API_KEY=your_api_key_here.txt

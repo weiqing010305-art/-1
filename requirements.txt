@@ -1,2 +1,9 @@
-# 当前项目仅使用 Python 标准库。
-# 项目后续需要第三方库时，请将依赖添加到此文件。
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33
+pymupdf>=1.24
+chromadb>=0.5
+openai>=1.30
+python-dotenv>=1.0
+requests>=2.31
+# reportlab 曾用于冒烟测试 PDF 生成，已改用 PyMuPDF 内置 CJK 字体（china-s），不再需要
